@@ -1,10 +1,10 @@
 # disable in production:  
-local_backend: true
+# local_backend: true
 # command to run a local Decap instance: npx-decap-server
 
 backend:
   name: github
-  squash_merges: true
+  # squash_merges: true
   repo: IARC-CSU/GCO-CMS.git  
   branch: main
   auth_endpoint: https://gco-cms.netlify.app/admin/auth
