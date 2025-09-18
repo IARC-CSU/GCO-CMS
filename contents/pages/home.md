@@ -1,5 +1,5 @@
 ---
-title: home
+title: Home
 content: >-
   ## GCO CMS
 
@@ -7,9 +7,7 @@ content: >-
   This is the GCO CMS https://gco-cms.netlify.app/, based on Decap CMS https://decapcms.org/, and Open source content management for Git workflow. 
 
 
-
   ### Introduction
-
 
   Based on markdown, or json format. 
 
@@ -18,12 +16,10 @@ content: >-
 
   ### Getting started
 
-
   The repository is hosted into github.
-
 SEOmetaData:
+  metaTitle: GCO CMS
+  metaDescription: The GCO CMS and this is a good CMS
   metaImage: https://decapcms.org/img/decap-logo.svg
-  metaDescription: Get set up quickly with this Nuxt3 - Decap CMS boilerplate
-  metaTitle: Nuxt3 - Decap CMS boilerplate
   keywords: nuxt, nuxt3, decap cms, decap, netlify, netlify cms, boilerplate
 ---

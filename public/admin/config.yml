@@ -9,7 +9,7 @@ backend:
 media_folder: "public/upload"
 public_folder: "/"
 
-site_url: https://sailsnake-decapcms.netlify.app
+site_url: https://gco-cms.netlify.app
 
 media_library:
   name: cloudinary
@@ -31,11 +31,10 @@ seo: &seo
     - { name: "metaImage", label: "SEO image", widget: "image"}
     - { name: "keywords", label: "keywords", widget: "string", hint: "keywords are comma seperated", required: false }
 
-
-
 collections:
   - name: "globalContent"
     label: "global content"
+    create: true
     files: 
       - label: "buttons"
         name: "buttons"
@@ -61,29 +60,22 @@ collections:
   # SINGLE PAGES
   - name: "pages"
     label: "Pages"
-    files:
-      - name: "home"
-        label: "Home"
-        file: "content/pages/home.md"
-        fields:
-          - { name: "title", label: "Title", widget: "string" }
-          - { name: "content", label: "Content", widget: "markdown" }
-          - *seo
-      - name: "typography"
-        label: "Typography"
-        file: "content/pages/typography.md"
-        fields:
-          - { name: "title", label: "Title", widget: "string" }
-          - { name: "content", label: "Content", widget: "markdown" }
-      - name: "Fiddly diddlies"
-        label: "diddlies"
-        extension: json
-        file: "content/pages/fiddly-diddlies.json"
-        fields:
-          - { name: "title", label: "Title", widget: "string" }
-          - { name: "test-fields", label: "field objects test", widget: "string", default: "fields.title" }
-          - { name: "content", label: "Content", widget: "markdown" }
-     
-
-          
+    create: true
+    folder: "contents/pages"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "content", label: "Content", widget: "markdown" }
+      - *seo
+  
+  - name: "news"                # used in filenames, must be unique
+    label: "News"               # shows in CMS sidebar
+    folder: "content/news"      # where markdown files live
+    create: true                 # enables "New Post" button
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Picture", name: "picture", widget: "image" }  # 👈 added
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
 
