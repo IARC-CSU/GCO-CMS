@@ -7,6 +7,8 @@ backend:
   squash_merges: true
   repo: IARC-CSU/GCO-CMS.git  
   branch: main
+  auth_endpoint: https://gco-cms.netlify.app/admin/auth
+  publish_mode: editorial_workflow
 
 media_folder: "public/images/upload"
 public_folder: "/images"

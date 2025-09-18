@@ -11,9 +11,9 @@
 				<NuxtLink to="/" class="menu-item item--home" prefetch>
 					<span>home</span>
 				</NuxtLink>
-				<NuxtLink to="/typography" class="menu-item" prefetch>
+				<!--<NuxtLink to="/typography" class="menu-item" prefetch>
 					<span>typography</span>
-				</NuxtLink>
+				</NuxtLink>-->
 			</menu>
 		</nav>
 	</div>
