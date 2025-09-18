@@ -3,8 +3,9 @@ local_backend: true
 # command to run a local Decap instance: npx-decap-server
 
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  name: github
+  repo: your-username/your-repo   # GitHub repo where content lives
+  branch: main
 
 media_folder: "public/upload"
 public_folder: "/"
