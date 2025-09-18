@@ -4,7 +4,7 @@ content: >-
   ## GCO CMS
 
 
-  This is the GCO CMS https://gco-cms.netlify.app/, based on Decap CMS https://decapcms.org/, and Open source content management for Git workflow. 
+  This is the GCO CMS https://gco-cms.netlify.app/, based on Decap CMS https://decapcms.org/, and Open source content management for Git workflow. Test test and test again.
 
 
   ### Introduction

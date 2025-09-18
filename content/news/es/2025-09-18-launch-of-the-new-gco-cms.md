@@ -1,8 +1,8 @@
 ---
-title: Launch of the new GCO CMS
+title: Lanzamiento del nuevo GCO CMS
 date: 2025-09-18T08:50:00.000+02:00
-picture: https://decapcms.org/static/frontend-tools-6c331a49973737791bac2e1f97f25887.png
-description: Based on Decap CMS, this is a news item ..
+picture: /images/screenshot-2025-09-12-at-2.28.10 pm.png
+description: Basado en Decap CMS, esta es una noticia..
 ---
 **Lorem ipsum dolor sit amet, consectetur adipiscing elit.** Integer ultricies lacus dolor, ac posuere nisl convallis vel. Suspendisse nibh urna, gravida et felis sed, ultrices iaculis libero. Etiam porta, quam vitae elementum ullamcorper, nisi odio pharetra dui, at elementum felis nulla eu sem. Donec fringilla elit in sem ultricies, eget aliquam nibh posuere. Etiam in lectus tellus. Praesent laoreet, felis vitae placerat scelerisque, diam magna tincidunt velit, vitae viverra ipsum nibh eget ligula. Phasellus ut tempor sapien. Curabitur nec nibh porta, maximus tortor a, pretium orci.
 
